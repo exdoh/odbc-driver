@@ -1,7 +1,7 @@
 {
     "name": "garylocke/odbc-driver",
-    "description": "Laravel 5.1 ODBC Driver",
-    "keywords": ["odbc", "driver", "laravel", "5.1"],
+    "description": "Laravel 5.2 ODBC Driver",
+    "keywords": ["odbc", "driver", "laravel", "5.2"],
     "authors": [
         {
             "name": "Gary Locke",
