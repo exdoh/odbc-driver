@@ -1,12 +1,12 @@
 l5-odbc-driver
 ==============
 
-Laravel 5.1 ODBC driver
+Laravel 5.2 ODBC driver
 
 Installation
 ============
 
-To Install this in your Laravel 5.1 app, open composer.json and add:
+To Install this in your Laravel 5.2 app, open composer.json and add:
 
 ```json
 "require": {
