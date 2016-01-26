@@ -9,6 +9,13 @@ Installation
 To Install this in your Laravel 5.2 app, open composer.json and add:
 
 ```json
+"repositories":
+[
+    {
+        "type": "vcs",
+        "url": "https://github.com/exdoh/odbc-driver.git"
+    }
+],
 "require": {
   "garylocke/odbc-driver": "dev-master"
 }
