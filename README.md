@@ -38,15 +38,17 @@ And replace it with:
 Finally, be sure to add the odbc driver with connection information to the `connections` array in `config/database.php` file like so:
 
 ```php
-    'connections' => [
-        'odbc' => [
-            'driver' => 'odbc',
-            'dsn' => 'Driver={iSeries Access ODBC Driver};System=my_system_name;',
-            'grammar' => 'DB2',
-            'username' => 'foo',
-            'password' => 'bar',
-            'database' => '',
-        ],
+    'odbc' => [
+        'driver' => 'odbc',
+        'dsn' => 'DRIVER={IBM DB2 ODBC DRIVER}',
+        'grammar' => 'db2',
+        'username' => env('DB_USERNAME', 'forge'),
+        'password' => env('DB_PASSWORD', ''),
+        'database' => env('DB_DATABASE', 'forge'),
+        'hostname' => env('DB_HOST', 'forge'),
+        'port' => env('DB_PORT', '5000'),
+        'protocal' => env('DB_PROTOCOL', 'TCPIP'),
+        'charset'  => env('DB_CHARSET', 'UTF-8'),
     ],
 ```
 
